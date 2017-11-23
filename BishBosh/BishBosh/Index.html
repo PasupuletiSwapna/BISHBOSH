@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <title>Bish Bosh 2.0</title>
+    <link rel="stylesheet" href="Source/style.css" />
+
+
+</head>
+
+<body>
+
+    <header><h1>BISH BOSH 2.0</h1></header>
+    <div class="container">
+        <div class="col-md-8">
+            <h3>.......!Welcome to Bish Bosh App!....</h3>
+            <h5>
+                The application BishBosh will list all numbers from 1 to 100 with a few exceptions. If the
+                number is evenly divisible with 3 it should print Bish. If the number is evenly devisable with
+                4 it should print Bosh. If the number is evenly divisible with both 3 and 4 it should printout
+                Bish-Bosh
+            </h5>
+        </div>
+
+        <form id="frm1">
+
+
+
+            Bosh Value:
+            <input id="bosh" type="number" name="bosh" min="1" max="100"><br><br><br>
+
+            Bish Value:
+            <input id="bish" type="number" name="bish" min="1" max="100"><br><br><br>
+
+            Count To:
+            <input id="loopval" type="number" name="loopval" min="1" max="100"><br><br><br>
+
+
+
+            <p>click start button to display result</p>
+            <button type="button" onclick="setfields()">Start</button>
+
+        </form>
+        <p id="demo"></p>
+
+
+
+
+    </div>
+    <script src="Source/Bishbosh.js"></script>
+</body>
+<footer>
+    Swapna Pasupuleti <small>&copy; Copyright 2017, Example BishBosh</small>
+</footer>
+
+
+                        </html>
